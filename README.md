@@ -8,3 +8,4 @@ JS30 是由加拿大工程師 Wes Bos 所建立一系列課程，
 
 [JS30 題目的 GitHub](https://github.com/wesbos/JavaScript30)  
 [JS30 官網](https://javascript30.com/)
+[JS30 筆記](https://hackmd.io/@chiisen/SyH4OsYaI)

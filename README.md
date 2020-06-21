@@ -10,9 +10,11 @@ JS30 是由加拿大工程師 Wes Bos 所建立一系列課程，
 [JS30 官網](https://javascript30.com/)  
 [JS30 筆記](https://hackmd.io/@chiisen/SyH4OsYaI)  
 
-## 主題列表
+## 筆記列表
 | 筆記 | 主題 |
 | --- | --- | 
 |[01](https://hackmd.io/@chiisen/SJqpyQnTI)|JavaScript Drum Kit
 |[02](https://hackmd.io/@chiisen/HJHH9NaT8|JS and CSS Clock
+|[03](https://hackmd.io/@chiisen/By0DEIppL|CSS Variables
+
 

@@ -7,5 +7,7 @@ JS30 是由加拿大工程師 Wes Bos 所建立一系列課程，
 是一個非常有趣且扎實的課題。
 
 [JS30 題目的 GitHub](https://github.com/wesbos/JavaScript30)  
-[JS30 官網](https://javascript30.com/)
-[JS30 筆記](https://hackmd.io/@chiisen/SyH4OsYaI)
+[JS30 官網](https://javascript30.com/)  
+[JS30 筆記](https://hackmd.io/@chiisen/SyH4OsYaI)  
+
+# **01 - JavaScript Drum Kit**

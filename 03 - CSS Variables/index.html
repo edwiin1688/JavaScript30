@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Scoped CSS Variables and JS</title>
 </head>
+
 <body>
   <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
 
@@ -21,7 +23,6 @@
   <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
 
   <style>
-
     /*
       misc styles, nothing to do with CSS variables
     */
@@ -42,10 +43,40 @@
     input {
       width: 100px;
     }
+
+    /* 宣告變數 */
+    :root {
+      --base: #ffc600;
+      --spacing: 10px;
+      --blur: 10px;
+    }
+
+    /* 圖片指定變數 */
+    img {
+      padding: var(--spacing);
+      background: var(--base);
+      filter: blur(var(--blur));
+    }
+
+    /* JS 的字體顏色 */
+    .hl {
+      color: var(--base);
+    }
   </style>
 
   <script>
+    var inputs = document.querySelectorAll('.controls input');
+
+    function update(){
+      const suffix = this.dataset.sizing || '';
+      document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+    }
+
+    inputs.forEach(i => i.addEventListener('change', update));
+    inputs.forEach(i => i.addEventListener('mousemove', update));
+
   </script>
 
 </body>
+
 </html>
